@@ -53,3 +53,38 @@
 // console.log(findMax(9,9,2));
 
 
+// // 4) Accumulator — Sum from 1 to N
+
+// function sumToN(num){
+//     let ans = 0;
+//     for(let i=0;i<=num;i++){
+//         ans += i;
+//     }
+//     return ans;
+// }
+
+// console.log(sumToN(5));
+// console.log(sumToN(10));
+
+// // 5) Multiplication Table Generator
+
+// function printTable(num){
+//     for(let i =1;i<=10;i++){
+//         console.log(num+"x"+i+"="+num*i);
+//    }
+// }
+// printTable(3);
+
+// // 6) Digit Counter — Number Length Finder
+
+// function countDigit(num){
+//     let cnt = 0;
+//     while(num>0){
+//         num = Math.floor(num/10);
+//         cnt++;
+//     }
+//     return cnt;
+// }
+// console.log(countDigit(1234));
+// console.log(countDigit(9));
+// console.log(countDigit(10000));
