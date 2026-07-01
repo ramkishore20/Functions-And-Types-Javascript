@@ -88,3 +88,20 @@
 // console.log(countDigit(1234));
 // console.log(countDigit(9));
 // console.log(countDigit(10000));
+
+// // 7) Number Reverser
+
+// function reverseNumber(num){
+//     let reverse = 0;
+//     while(num > 0){
+//        let  digit = num%10;
+//         reverse = reverse*10 +digit;
+//         num = Math.floor(num/10); 
+//     }
+//     return reverse;
+// }
+// console.log(reverseNumber(1234));
+// console.log(reverseNumber(500));
+// console.log(reverseNumber(91));
+
+
