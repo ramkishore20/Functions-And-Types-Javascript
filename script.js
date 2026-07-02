@@ -104,4 +104,52 @@
 // console.log(reverseNumber(500));
 // console.log(reverseNumber(91));
 
+// // 8) Factorial Engine
 
+// function factorial(num){
+//     let ans = 1;
+//     for(i=num;i>0;i--){
+//         ans = ans*i;
+//     }
+//     return ans;
+// }
+
+// console.log(factorial(5));
+// console.log(factorial(3));
+// console.log(factorial(1));
+
+// // 9) Prime Validator
+
+// function isPrime(num){
+//     let cnt =0;
+//     for(let i=1;i<=num;i++){
+//         if(num % i === 0){
+//             cnt++;
+//         }
+//     }
+//     if(cnt>2){
+//         return "False";
+//     }
+//     else{
+//         return "True";
+//     }
+// }
+// console.log(isPrime(7));
+// console.log(isPrime(10));
+// console.log(isPrime(2));
+
+
+// // 10) Pattern Builder — Star Triangle
+
+// function printPattern(num){
+//     for(let i=0;i<num;i++){
+//         let row = "";
+//         for(let j = 0;j<=i;j++){
+//             row += "*"
+            
+//         }
+//         console.log(row);
+        
+//     }
+// }
+// printPattern(4);
