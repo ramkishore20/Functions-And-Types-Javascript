@@ -17,7 +17,7 @@
 // // 2) Result Evaluator — Pass or Fail
 
 // function evaluateResult(num){
-//     if(num > 50 && num <=100){
+//     if(num >= 50 && num <=100){
 //         return "pass";
         
 //     }
@@ -79,6 +79,9 @@
 
 // function countDigit(num){
 //     let cnt = 0;
+//         if(num === 0){
+//             return 1;
+//         }
 //     while(num>0){
 //         num = Math.floor(num/10);
 //         cnt++;
@@ -121,6 +124,9 @@
 // // 9) Prime Validator
 
 // function isPrime(num){
+//     if(num < 2){
+//         return false;
+//     }
 //     let cnt =0;
 //     for(let i=1;i<=num;i++){
 //         if(num % i === 0){
@@ -128,10 +134,10 @@
 //         }
 //     }
 //     if(cnt>2){
-//         return "False";
+//         return false;
 //     }
 //     else{
-//         return "True";
+//         return true;
 //     }
 // }
 // console.log(isPrime(7));
